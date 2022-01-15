@@ -4,4 +4,12 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.43px;
+  background-color: #fff;
+  color: #29303b;
+}
 /*# sourceMappingURL=main.css.map */
