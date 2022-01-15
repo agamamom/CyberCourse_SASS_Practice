@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "../Sass/main.scss",
+        "../Sass/Helper/_variable.scss",
+        "../Sass/Helper/_mixin.scss",
+        "../Sass/Base/_reset.scss",
+        "../Sass/Base/_customize.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
