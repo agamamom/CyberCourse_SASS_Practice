@@ -2,16 +2,36 @@
     .navBar__left {
         display: flex;
         .navBar__brand {
-            flex-grow: 1;
+            padding: 0 20px;
             img {
                 width: 110px;
             }
         }
         .navBar__Category {
-            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            color: $cl-2;
+            font-size: 13px;
+            padding: 0 20px;
+            cursor: pointer;
         }
         .navBar__input-group {
-            flex-grow: 8;
+            .form-control {
+                background-color: $cl-5;
+                border-color: $cl-5;
+            }
+            .form-control:focus {
+                box-shadow: none;
+                background-color: #fff;
+                border-top-color: #dedfe0;
+                border-bottom-color: #dedfe0;
+                border-left-color: #dedfe0;
+                border-right: none;
+            }
+            .input-group-text {
+                background-color: $cl-5;
+                border-color: $cl-5;
+            }
         }
     }
 }
