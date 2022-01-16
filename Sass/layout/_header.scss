@@ -1,0 +1,17 @@
+.navBar {
+    .navBar__left {
+        display: flex;
+        .navBar__brand {
+            flex-grow: 1;
+            img {
+                width: 110px;
+            }
+        }
+        .navBar__Category {
+            flex-grow: 1;
+        }
+        .navBar__input-group {
+            flex-grow: 8;
+        }
+    }
+}
