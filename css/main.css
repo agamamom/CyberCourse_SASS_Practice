@@ -13,6 +13,13 @@ body {
   color: #29303b;
 }
 
+.navBar {
+  -webkit-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
+          box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
+  -webkit-box-shadow: 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+          box-shadow: 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
 .navBar .navBar__left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,15 +41,20 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #505763;
-  font-size: 13px;
   padding: 0 20px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #505763;
   cursor: pointer;
 }
 
-.navBar .navBar__left .navBar__input-group .form-control {
+.navBar .navBar__left .navBar__input-group {
   background-color: #f2f3f5;
-  border-color: #f2f3f5;
+}
+
+.navBar .navBar__left .navBar__input-group .form-control {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .navBar .navBar__left .navBar__input-group .form-control:focus {
@@ -52,11 +64,73 @@ body {
   border-top-color: #dedfe0;
   border-bottom-color: #dedfe0;
   border-left-color: #dedfe0;
-  border-right: none;
+}
+
+.navBar .navBar__left .navBar__input-group .form-control:focus + .input-group-text {
+  background-color: #fff;
+  border-top-color: #dedfe0;
+  border-bottom-color: #dedfe0;
+  border-right-color: #dedfe0;
+}
+
+.navBar .navBar__left .navBar__input-group .form-control::-webkit-input-placeholder {
+  color: #505763;
+}
+
+.navBar .navBar__left .navBar__input-group .form-control:-ms-input-placeholder {
+  color: #505763;
+}
+
+.navBar .navBar__left .navBar__input-group .form-control::-ms-input-placeholder {
+  color: #505763;
+}
+
+.navBar .navBar__left .navBar__input-group .form-control::placeholder {
+  color: #505763;
 }
 
 .navBar .navBar__left .navBar__input-group .input-group-text {
-  background-color: #f2f3f5;
-  border-color: #f2f3f5;
+  background-color: transparent;
+  border-color: transparent;
+  color: #ec5252;
+}
+
+.navBar .navBar__left .navBar__input-group .input-group-text:hover {
+  color: #fff;
+  background-color: #ec5252;
+}
+
+.navBar .navBar__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .navBar__right .nav-item .nav-link {
+  font-size: 13px;
+  font-weight: normal;
+  color: #505763;
+}
+
+.navBar .navBar__right .fa-shopping-cart {
+  color: #505763;
+  font-size: 20px;
+}
+
+.navBar__button--white {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #29303b;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #505763;
+  background-color: transparent;
+  padding: 11px 12px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

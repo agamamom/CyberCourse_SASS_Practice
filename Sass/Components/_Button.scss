@@ -1,0 +1,4 @@
+.navBar__button--white {
+    box-shadow: none;
+    @include buttonStyle($cl-1, $fz-2, $fw-3, $cl-2, transparent, $fz-1 - 2, $fz-1 - 1);
+}

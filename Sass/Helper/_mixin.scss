@@ -1,0 +1,15 @@
+@mixin textStyle($fz, $fw, $cl) {
+    font-size: $fz;
+    font-weight: $fw;
+    color: $cl;
+}
+
+@mixin buttonStyle($cl, $fz, $fw, $br-cl, $bg-cl, $pd-y, $pd-x) {
+    color: $cl;
+    font-size: $fz;
+    font-weight: $fw;
+    border: 1px solid $br-cl;
+    background-color: $bg-cl;
+    padding: $pd-y $pd-x;
+    cursor: pointer;
+}

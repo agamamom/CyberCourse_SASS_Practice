@@ -1,4 +1,7 @@
 .navBar {
+    box-shadow: 0 0 1px 1px $cl-3;
+    box-shadow: 0 3px 1px 0 $cl-3;
+    // NAVBAR LEFT
     .navBar__left {
         display: flex;
         .navBar__brand {
@@ -10,28 +13,56 @@
         .navBar__Category {
             display: flex;
             align-items: center;
-            color: $cl-2;
-            font-size: 13px;
             padding: 0 20px;
+            @include textStyle($fz-1, $fw-1, $cl-2);
             cursor: pointer;
         }
         .navBar__input-group {
+            background-color: $cl-5;
             .form-control {
-                background-color: $cl-5;
-                border-color: $cl-5;
-            }
-            .form-control:focus {
-                box-shadow: none;
-                background-color: #fff;
-                border-top-color: #dedfe0;
-                border-bottom-color: #dedfe0;
-                border-left-color: #dedfe0;
-                border-right: none;
+                background-color: transparent;
+                border-color: transparent;
+                &:focus {
+                    box-shadow: none;
+                    background-color: #fff;
+                    border-top-color: #dedfe0;
+                    border-bottom-color: #dedfe0;
+                    border-left-color: #dedfe0;
+                }
+                &:focus + .input-group-text {
+                    background-color: #fff;
+                    border-top-color: #dedfe0;
+                    border-bottom-color: #dedfe0;
+                    border-right-color: #dedfe0;
+                }
+                &::placeholder {
+                    color: $cl-2;
+                }
             }
             .input-group-text {
-                background-color: $cl-5;
-                border-color: $cl-5;
+                background-color: transparent;
+                border-color: transparent;
+                color: $cl-6;
+                &:hover {
+                    color: #fff;
+                    background-color: $cl-6;
+                }
             }
+        }
+    }
+    // NAVBAR RIGHT
+    .navBar__right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .nav-item {
+            .nav-link {
+                @include textStyle($fz-1, $fw-1, $cl-2);
+            }
+        }
+        .fa-shopping-cart {
+            color: $cl-2;
+            font-size: $fz-4 - 4;
         }
     }
 }
