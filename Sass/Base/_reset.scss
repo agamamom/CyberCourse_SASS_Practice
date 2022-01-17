@@ -5,8 +5,12 @@
 }
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: $fz-1;
-    line-height: $lh-1;
+    font-size: $fz-13;
+    line-height: $lh-143;
     background-color: $bg-white-1;
     color: $cl-1;
+}
+
+a {
+    text-decoration: none;
 }

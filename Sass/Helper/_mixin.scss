@@ -13,3 +13,9 @@
     padding: $pd-y $pd-x;
     cursor: pointer;
 }
+
+@mixin buttonHover($cl, $bg-cl, $br-cl) {
+    color: $cl;
+    background-color: $bg-cl;
+    border: 1px solid $br-cl;
+}

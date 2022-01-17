@@ -1,13 +1,13 @@
 // fontsize
-$fz-1: 13px;
-$fz-2: 15px;
-$fz-3: 18px;
-$fz-4: 24px;
-$fz-5: 36px;
-$fz-6: 40px;
+$fz-13: 13px;
+$fz-15: 15px;
+$fz-18: 18px;
+$fz-24: 24px;
+$fz-36: 36px;
+$fz-40: 40px;
 
 // lineheight
-$lh-1: 1.43px;
+$lh-143: 1.43;
 
 // background
 $bg-white-1: #fff;
@@ -25,9 +25,20 @@ $cl-9: #dee2e6;
 $cl-10: #a1a7b3;
 $cl-11: #007791;
 $cl-12: #f4c150;
+$cl-13: rgba(20, 23, 28, 0.05);
+$cl-14: rgba(20, 23, 28, 0.25);
 // fontweight
-$fw-1: normal;
-$fw-2: 300;
-$fw-3: 400;
-$fw-4: 600;
-$fw-5: 700;
+$fw-nor: normal;
+$fw-300: 300;
+$fw-400: 400;
+$fw-600: 600;
+$fw-700: 700;
+// margin
+$mg-10: 20px;
+$mg-15: 25px;
+$mg-5: 5px;
+// padding
+$pd-10: 10px;
+$pd-15: 15px;
+$pd-5: 5px;
+$pd-20: 20px;
