@@ -22,12 +22,16 @@ a {
           box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
   -webkit-box-shadow: 0 3px 1px 0 rgba(20, 23, 28, 0.1);
           box-shadow: 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  padding: 0.5rem 1rem;
 }
 
 .navBar .navBar__left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navBar .navBar__left .navBar__brand {
@@ -54,6 +58,7 @@ a {
 
 .navBar .navBar__left .navBar__input-group {
   background-color: #f2f3f5;
+  border-radius: 5px;
 }
 
 .navBar .navBar__left .navBar__input-group .form-control {
@@ -130,12 +135,12 @@ a {
   background-color: rgba(20, 23, 28, 0.05);
 }
 
-.navBar .navBar__right .nav-item:hover .overlay::before {
-  opacity: 1;
+.navBar .navBar__right .nav-item:hover .overlay {
+  display: block;
 }
 
 .navBar .navBar__right .nav-item .overlay {
-  opacity: 0;
+  display: none;
   position: absolute;
   width: 330px;
   padding: 20px;
@@ -185,6 +190,50 @@ a {
   color: #fff;
   background-color: #521822;
   border: 1px solid #521822;
+}
+
+.cover {
+  background-image: url("../../img/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.cover .cover__content {
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 12.9%;
+  color: #fff;
+}
+
+.cover .cover__content h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.cover .cover__content p {
+  font-size: 18px;
+}
+
+.cover .cover__content .form-control::-webkit-input-placeholder {
+  color: #505763;
+}
+
+.cover .cover__content .form-control:-ms-input-placeholder {
+  color: #505763;
+}
+
+.cover .cover__content .form-control::-ms-input-placeholder {
+  color: #505763;
+}
+
+.cover .cover__content .form-control::placeholder {
+  color: #505763;
 }
 
 .navBar__button--white {

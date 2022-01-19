@@ -1,0 +1,24 @@
+.cover {
+    background-image: url("../../img/cover.jpg");
+    @include backgroundImg;
+    height: 500px;
+    position: relative;
+    .cover__content {
+        position: absolute;
+        width: 500px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 12.9%;
+        color: $bg-white-1;
+        & h2 {
+            font-size: $fz-40;
+            font-weight: $fw-700;
+        }
+        p {
+            font-size: $fz-18;
+        }
+        .form-control::placeholder {
+            color: $cl-2;
+        }
+    }
+}

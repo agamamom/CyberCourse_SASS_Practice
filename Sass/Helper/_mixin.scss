@@ -19,3 +19,9 @@
     background-color: $bg-cl;
     border: 1px solid $br-cl;
 }
+
+@mixin backgroundImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
