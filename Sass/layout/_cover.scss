@@ -9,16 +9,12 @@
         top: 50%;
         transform: translateY(-50%);
         left: 12.9%;
-        color: $bg-white-1;
         & h2 {
-            font-size: $fz-40;
-            font-weight: $fw-700;
+            @include textStyle($fz-40, $fw-700, $cl-4);
         }
         p {
-            font-size: $fz-18;
+            @include textStyle($fz-18, $fw-nor, $cl-4);
         }
-        .form-control::placeholder {
-            color: $cl-2;
-        }
+        @include formInputStyle($cl-4, $cl-4, $cl-4);
     }
 }

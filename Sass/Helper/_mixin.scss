@@ -25,3 +25,39 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@mixin formInputStyle($bg-cl, $bg-cl-fc, $br-cl) {
+    .navBar__input-group {
+        background-color: $bg-cl;
+        border-radius: 5px;
+        .form-control {
+            background-color: transparent;
+            border-color: transparent;
+            &:focus {
+                box-shadow: none;
+                background-color: $bg-cl-fc;
+                border-top-color: $br-cl;
+                border-bottom-color: $br-cl;
+                border-left-color: $br-cl;
+            }
+            &:focus + .input-group-text {
+                background-color: $bg-cl-fc;
+                border-top-color: $br-cl;
+                border-bottom-color: $br-cl;
+                border-right-color: $br-cl;
+            }
+            &::placeholder {
+                color: $cl-2;
+            }
+        }
+        .input-group-text {
+            background-color: transparent;
+            border-color: transparent;
+            color: $cl-6;
+            &:hover {
+                color: $cl-4;
+                background-color: $cl-6;
+            }
+        }
+    }
+}

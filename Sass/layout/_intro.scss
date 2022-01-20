@@ -1,0 +1,21 @@
+.intro {
+    background: linear-gradient(-45deg, $cl-6, $cl-15);
+    padding: 20px;
+    &__content {
+        width: 85%;
+        margin: 0 auto;
+        .intro__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $bg-white-1;
+            .intro__icon {
+                font-size: $fz-50;
+                margin-right: 30px;
+            }
+            .intro__detail p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

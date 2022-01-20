@@ -19,39 +19,7 @@
             @include textStyle($fz-13, $fw-nor, $cl-2);
             cursor: pointer;
         }
-        .navBar__input-group {
-            background-color: $cl-5;
-            border-radius: 5px;
-            .form-control {
-                background-color: transparent;
-                border-color: transparent;
-                &:focus {
-                    box-shadow: none;
-                    background-color: #fff;
-                    border-top-color: $cl-9;
-                    border-bottom-color: $cl-9;
-                    border-left-color: $cl-9;
-                }
-                &:focus + .input-group-text {
-                    background-color: #fff;
-                    border-top-color: $cl-9;
-                    border-bottom-color: $cl-9;
-                    border-right-color: $cl-9;
-                }
-                &::placeholder {
-                    color: $cl-2;
-                }
-            }
-            .input-group-text {
-                background-color: transparent;
-                border-color: transparent;
-                color: $cl-6;
-                &:hover {
-                    color: $cl-4;
-                    background-color: $cl-6;
-                }
-            }
-        }
+        @include formInputStyle($cl-5, $cl-4, $cl-9);
     }
     // NAVBAR RIGHT
     .navBar__right {
