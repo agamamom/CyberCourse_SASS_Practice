@@ -307,6 +307,50 @@ a {
   margin-bottom: 0;
 }
 
+.intro__content .intro__item .intro__detail p:first-child {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.intro__content .intro__item .intro__detail p:last-child {
+  font-size: 15px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.course {
+  margin: 24px;
+}
+
+.course .course__content {
+  width: 90.1%;
+  margin: 0 auto;
+}
+
+.course .course__content .course__left {
+  background-color: rgba(20, 23, 28, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 36px;
+}
+
+.course .course__content .course__left p:first-child {
+  font-size: 20px;
+  font-weight: 400;
+  color: #29303b;
+}
+
+.course .course__content .course__left p:last-child {
+  font-size: 15px;
+  font-weight: 400;
+  color: #29303b;
+}
+
 .navBar__button--white {
   -webkit-box-shadow: none;
           box-shadow: none;

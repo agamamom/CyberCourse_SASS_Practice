@@ -1,0 +1,19 @@
+.course {
+    margin: 24px;
+    .course__content {
+        width: 90.1%;
+        margin: 0 auto;
+        .course__left {
+            background-color: $cl-13;
+            display: flex;
+            align-items: center;
+            padding: 36px;
+            & p:first-child {
+                @include textStyle($fz-18 + 2, $fw-400, $cl-1);
+            }
+            & p:last-child {
+                @include textStyle($fz-15, $fw-400, $cl-1);
+            }
+        }
+    }
+}

@@ -16,6 +16,12 @@
             .intro__detail p {
                 margin-bottom: 0;
             }
+            .intro__detail p:first-child {
+                @include textStyle($fz-15 + 2, $fw-700, $bg-white-1);
+            }
+            .intro__detail p:last-child {
+                @include textStyle($fz-15, $fw-nor, $bg-white-1);
+            }
         }
     }
 }
