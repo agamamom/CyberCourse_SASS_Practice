@@ -1,0 +1,28 @@
+.card {
+    .card-title {
+        @include textStyle($fz-15 + 0.5, $fw-700, $cl-1);
+    }
+    .card-text {
+        @include textStyle($fz-13 - 1, $fw-nor, $cl-8);
+        margin: 10px 0;
+    }
+    .card__rating {
+        .card__star {
+            color: $cl-12;
+        }
+        & span:nth-child(2) {
+            @include textStyle($fz-13, $fw-700, $cl-8);
+        }
+    }
+    .card__price {
+        float: right;
+        padding: 10px 0;
+        & span:nth-child(1) {
+            text-decoration: line-through;
+        }
+        & span:nth-child(2) {
+            font-weight: $fw-700;
+            font-size: 15px;
+        }
+    }
+}

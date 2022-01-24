@@ -351,6 +351,34 @@ a {
   color: #29303b;
 }
 
+.course .course__content .course__right .nav-tabs {
+  border: none;
+  border-bottom: 1px solid rgba(20, 23, 28, 0.1);
+}
+
+.course .course__content .course__right .nav-tabs .nav-link {
+  border: none;
+  font-size: 15px;
+  font-weight: normal;
+  color: #29303b;
+}
+
+.course .course__content .course__right .nav-tabs .nav-link:focus,
+.course .course__content .course__right .nav-tabs .nav-link:hover {
+  border-color: transparent;
+  color: #007791;
+}
+
+.course .course__content .course__right .nav-tabs .nav-item.show .nav-link,
+.course .course__content .course__right .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 5px solid #007791;
+}
+
+.course .course__content .course__right .tab-content {
+  margin-top: 25px;
+}
+
 .navBar__button--white {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -373,5 +401,42 @@ a {
   background-color: #ec5252;
   padding: 11px 12px;
   cursor: pointer;
+}
+
+.card .card-title {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #29303b;
+}
+
+.card .card-text {
+  font-size: 12px;
+  font-weight: normal;
+  color: #686f7a;
+  margin: 10px 0;
+}
+
+.card .card__rating .card__star {
+  color: #f4c150;
+}
+
+.card .card__rating span:nth-child(2) {
+  font-size: 13px;
+  font-weight: 700;
+  color: #686f7a;
+}
+
+.card .card__price {
+  float: right;
+  padding: 10px 0;
+}
+
+.card .card__price span:nth-child(1) {
+  text-decoration: line-through;
+}
+
+.card .card__price span:nth-child(2) {
+  font-weight: 700;
+  font-size: 15px;
 }
 /*# sourceMappingURL=main.css.map */
