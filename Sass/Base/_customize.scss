@@ -1,0 +1,33 @@
+.tab-content {
+    .owl-carousel {
+        position: relative;
+        .owl-nav {
+            button {
+                &.owl-prev,
+                &.owl-next {
+                    font-size: $fz-24;
+                    color: $cl-11;
+                    width: 44px;
+                    height: 44px;
+                    border: 1px solid $bg-white-1;
+                    background-color: $bg-white-1;
+                    border-radius: 50%;
+                    box-shadow: 0 2px 8px 2px $cl-3;
+                }
+                &.owl-prev {
+                    position: absolute;
+                    top: 28%;
+                    left: -3%;
+                }
+                &.owl-next {
+                    position: absolute;
+                    top: 27%;
+                    right: -3%;
+                }
+            }
+            button:hover {
+                background-color: $bg-white-1;
+            }
+        }
+    }
+}

@@ -17,6 +17,38 @@ a {
   text-decoration: none;
 }
 
+.tab-content .owl-carousel {
+  position: relative;
+}
+
+.tab-content .owl-carousel .owl-nav button.owl-prev, .tab-content .owl-carousel .owl-nav button.owl-next {
+  font-size: 24px;
+  color: #007791;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+          box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+}
+
+.tab-content .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 28%;
+  left: -3%;
+}
+
+.tab-content .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 27%;
+  right: -3%;
+}
+
+.tab-content .owl-carousel .owl-nav button:hover {
+  background-color: #fff;
+}
+
 .navBar {
   -webkit-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
           box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
@@ -377,6 +409,15 @@ a {
 
 .course .course__content .course__right .tab-content {
   margin-top: 25px;
+}
+
+.course .course__content .course__right .tab-content .owl-stage-outer {
+  margin-right: -1px;
+}
+
+.viewing .viewing__content {
+  width: 90.1%;
+  margin: 0 auto;
 }
 
 .navBar__button--white {

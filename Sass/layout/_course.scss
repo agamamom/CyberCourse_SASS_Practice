@@ -36,6 +36,9 @@
             }
             .tab-content {
                 margin-top: 25px;
+                .owl-stage-outer {
+                    margin-right: -1px;
+                }
             }
         }
     }
