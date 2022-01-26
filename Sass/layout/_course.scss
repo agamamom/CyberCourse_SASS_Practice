@@ -1,8 +1,11 @@
 .course {
-    margin: 24px;
+    margin: 24px 0;
     .course__content {
         width: 90.1%;
         margin: 0 auto;
+        .row {
+            margin-left: 0;
+        }
         .course__left {
             background-color: $cl-13;
             display: flex;

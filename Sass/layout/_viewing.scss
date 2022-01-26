@@ -2,5 +2,14 @@
     .viewing__content {
         width: 90.1%;
         margin: 0 auto;
+        p {
+            @include textStyle($fz-18 + 2, $fw-nor, $cl-1);
+            margin-bottom: 5px;
+        }
+        .owl-carousel {
+            .owl-stage-outer {
+                margin-right: -1px;
+            }
+        }
     }
 }
