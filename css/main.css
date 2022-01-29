@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -25,8 +25,7 @@ a {
   margin-top: 0;
 }
 
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next {
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
   font-size: 24px;
   color: #007791;
   width: 44px;
@@ -35,7 +34,7 @@ a {
   background-color: #fff;
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
-  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+          box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -50,16 +49,16 @@ a {
   right: -28px;
 }
 
-.owl-carousel.owl-theme .owl-nav button:hover {
+.owl-carousel .owl-nav button:hover {
   background-color: #fff;
   color: #007791;
 }
 
 .navBar {
   -webkit-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
-  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
+          box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1);
   -webkit-box-shadow: 0 3px 1px 0 rgba(20, 23, 28, 0.1);
-  box-shadow: 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+          box-shadow: 0 3px 1px 0 rgba(20, 23, 28, 0.1);
   padding: 0.5rem 1rem;
 }
 
@@ -68,8 +67,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navBar .navBar__left .navBar__brand {
@@ -85,8 +84,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 20px;
   font-size: 13px;
   font-weight: normal;
@@ -106,7 +105,7 @@ a {
 
 .navBar .navBar__left .navBar__input-group .form-control:focus {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   background-color: #fff;
   border-top-color: #dee2e6;
   border-bottom-color: #dee2e6;
@@ -152,10 +151,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navBar .navBar__right .nav-item {
@@ -187,7 +186,7 @@ a {
   text-align: center;
   background-color: #fff;
   -webkit-box-shadow: 0 4px 16px rgba(20, 23, 28, 0.25);
-  box-shadow: 0 4px 16px rgba(20, 23, 28, 0.25);
+          box-shadow: 0 4px 16px rgba(20, 23, 28, 0.25);
 }
 
 .navBar .navBar__right .nav-item .overlay::before {
@@ -202,7 +201,7 @@ a {
   top: -6%;
   right: 10%;
   -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .navBar .navBar__right .nav-item__icon {
@@ -244,7 +243,7 @@ a {
   width: 500px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   left: 12.9%;
 }
 
@@ -272,7 +271,7 @@ a {
 
 .cover .cover__content .navBar__input-group .form-control:focus {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   background-color: #fff;
   border-top-color: #fff;
   border-bottom-color: #fff;
@@ -328,11 +327,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
 }
 
@@ -376,8 +375,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 36px;
 }
 
@@ -441,9 +440,18 @@ a {
   margin-right: -1px;
 }
 
+.banner {
+  background: url(../../img/udemy-logo-semi-transparent.svg), -webkit-gradient(linear, left top, right top, from(#f064dd), to(#755050));
+  background: url(../../img/udemy-logo-semi-transparent.svg), linear-gradient(90deg, #f064dd, #755050);
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 325px;
+}
+
 .navBar__button--white {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   color: #686f7a;
   font-size: 15px;
   font-weight: 700;
@@ -455,7 +463,7 @@ a {
 
 .navBar__button--red {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   color: #fff;
   font-size: 15px;
   font-weight: 700;
