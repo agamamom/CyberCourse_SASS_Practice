@@ -1,8 +1,18 @@
 .banner {
-    background: url(../../img/udemy-logo-semi-transparent.svg),
-        linear-gradient(90deg, rgb(240, 100, 221), rgb(117, 80, 80));
-    background-position: center;
-    background-size: 30%;
-    background-repeat: no-repeat;
+    background: url(../../img/udemy-logo-semi-transparent.svg) 0/30% no-repeat,
+        linear-gradient(61deg, $cl-15, $cl-11 41%);
+    background-blend-mode: overlay;
     height: 325px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    h2 {
+        @include textStyle($fz-36, $fw-nor, $bg-white-1);
+    }
+    .text-left {
+        text-align: left;
+    }
+    .text-right {
+        text-align: right;
+    }
 }

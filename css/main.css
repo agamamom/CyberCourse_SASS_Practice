@@ -441,12 +441,30 @@ a {
 }
 
 .banner {
-  background: url(../../img/udemy-logo-semi-transparent.svg), -webkit-gradient(linear, left top, right top, from(#f064dd), to(#755050));
-  background: url(../../img/udemy-logo-semi-transparent.svg), linear-gradient(90deg, #f064dd, #755050);
-  background-position: center;
-  background-size: 30%;
-  background-repeat: no-repeat;
+  background: url(../../img/udemy-logo-semi-transparent.svg) 0/30% no-repeat, linear-gradient(61deg, #6e1a52, #007791 41%);
+  background-blend-mode: overlay;
   height: 325px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner h2 {
+  font-size: 36px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.banner .text-left {
+  text-align: left;
+}
+
+.banner .text-right {
+  text-align: right;
 }
 
 .navBar__button--white {
@@ -469,6 +487,16 @@ a {
   font-weight: 700;
   border: 1px solid #ec5252;
   background-color: #ec5252;
+  padding: 11px 12px;
+  cursor: pointer;
+}
+
+.navBar__button--red:hover {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #521822;
+  background-color: #521822;
   padding: 11px 12px;
   cursor: pointer;
 }
