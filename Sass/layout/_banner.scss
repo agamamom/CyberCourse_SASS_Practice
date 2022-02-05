@@ -9,6 +9,13 @@
     h2 {
         @include textStyle($fz-36, $fw-nor, $bg-white-1);
     }
+    p {
+        @include textStyle($fz-15, $fw-nor, $bg-white-1);
+        margin-bottom: 0;
+    }
+    button {
+        margin: 10px 0;
+    }
     .text-left {
         text-align: left;
     }
