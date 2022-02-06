@@ -484,7 +484,7 @@ a {
 
 .categories .categories__content {
   width: 90%;
-  margin: 40px auto 0;
+  margin: 40px auto 20px;
 }
 
 .categories .categories__content .categories__items {
@@ -501,6 +501,20 @@ a {
 .categories .categories__content .categories__items:hover {
   -webkit-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
           box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.students {
+  padding: 32px 0;
+}
+
+.students .students__content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.students .students__content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .navBar__button--white {
@@ -572,5 +586,31 @@ a {
 .card .card__price span:nth-child(2) {
   font-weight: 700;
   font-size: 15px;
+}
+
+.card__students {
+  padding: 2rem;
+}
+
+.card__students .card__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__students .card__top img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.card__students .card__top .card__stars {
+  color: #f4c150;
+}
+
+.card__students .card__bottom p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #29303b;
 }
 /*# sourceMappingURL=main.css.map */

@@ -26,3 +26,23 @@
         }
     }
 }
+
+.card__students {
+    padding: 2rem;
+    .card__top {
+        display: flex;
+        img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+        }
+        .card__stars {
+            color: $cl-12;
+        }
+    }
+    .card__bottom {
+        p {
+            @include textStyle($fz-15, $fw-nor, $cl-1);
+        }
+    }
+}
