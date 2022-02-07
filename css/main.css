@@ -517,6 +517,50 @@ a {
   margin-bottom: 20px;
 }
 
+.partners {
+  background-color: #f7f8fa;
+  padding: 20px;
+}
+
+.partners .partners__content {
+  width: 70%;
+  margin: 0 auto 16px;
+}
+
+.partners .partners__content .partners__title p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.partners .partners__content .partners__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jobs {
+  background-color: #f7f8fa;
+}
+
+.jobs .jobs__items {
+  text-align: center;
+  padding: 20px;
+}
+
+.jobs .jobs__items h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #505763;
+}
+
+.jobs .jobs__items p {
+  font-size: 16px;
+  margin: 0 138px 16px;
+}
+
 .navBar__button--white {
   -webkit-box-shadow: none;
           box-shadow: none;

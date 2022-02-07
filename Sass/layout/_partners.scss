@@ -1,0 +1,19 @@
+.partners {
+    background-color: $cl-16;
+    padding: 20px;
+    .partners__content {
+        width: 70%;
+        margin: 0 auto 16px;
+
+        .partners__title {
+            p {
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+        .partners__img {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
