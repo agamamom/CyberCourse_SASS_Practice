@@ -1,0 +1,41 @@
+.footer {
+    .footer__top {
+        width: 90%;
+        margin: 40px auto;
+        .navbar-footer {
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 0;
+            .nav-item {
+                .nav-link {
+                    @include textStyle($fz-13, $fw-nor, $cl-11);
+                    padding: 0;
+                }
+                list-style: none;
+                flex-basis: 25%;
+            }
+        }
+    }
+    .footer__bottom {
+        width: 90%;
+        margin: 30px auto;
+        .line-height {
+            line-height: 31px;
+        }
+        img {
+            width: 110px;
+            margin-right: 10px;
+        }
+        .footer__bottom-link {
+            li {
+                list-style: none;
+                text-align: right;
+                a {
+                    color: $cl-11;
+                }
+            }
+        }
+    }
+}
