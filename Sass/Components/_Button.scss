@@ -9,3 +9,7 @@
         @include buttonStyle($cl-4, $fz-15, $fw-700, $cl-7, $cl-7, $pd-10 + 1, $pd-10 + 2);
     }
 }
+.button--dropup {
+    box-shadow: none;
+    @include buttonStyle($cl-8, $fz-13, $fw-600, $cl-2, transparent, $pd-5, $pd-10);
+}

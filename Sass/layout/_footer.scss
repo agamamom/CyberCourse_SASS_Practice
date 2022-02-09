@@ -17,6 +17,31 @@
                 flex-basis: 25%;
             }
         }
+        .btn-group {
+            .dropdown-toggle {
+                box-shadow: none;
+                min-width: 160px;
+                i {
+                    margin-right: 5px;
+                }
+                &::after {
+                    margin-left: 30%;
+                }
+                &:hover {
+                    color: #29303b;
+                    background-color: transparent;
+                    border: 1px solid #29303b;
+                }
+            }
+            .dropdown-menu {
+                a {
+                    font-size: $fz-13;
+                }
+            }
+        }
+    }
+    .footer-line {
+        background-color: red;
     }
     .footer__bottom {
         width: 90%;
