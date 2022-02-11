@@ -229,6 +229,12 @@ a {
   border: 1px solid #521822;
 }
 
+@media screen and (max-width: 1200px) {
+  .nav-item-hide {
+    display: none;
+  }
+}
+
 .cover {
   background-image: url("../../img/cover.jpg");
   background-position: center;
@@ -626,10 +632,6 @@ a {
 
 .footer .footer__top .btn-group .dropdown-menu a {
   font-size: 13px;
-}
-
-.footer .footer-line {
-  background-color: red;
 }
 
 .footer .footer__bottom {

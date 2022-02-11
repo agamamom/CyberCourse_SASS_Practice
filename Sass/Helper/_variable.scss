@@ -45,3 +45,10 @@ $pd-10: 10px;
 $pd-15: 15px;
 $pd-5: 5px;
 $pd-20: 20px;
+// Breakpoint
+$breakpoint: (
+    "small": 576px,
+    "medium": 768px,
+    "large": 992px,
+    "extra-large": 1200px,
+);

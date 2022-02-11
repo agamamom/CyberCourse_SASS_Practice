@@ -85,3 +85,9 @@
         }
     }
 }
+
+@include responsive("extra-large") {
+    .nav-item-hide {
+        display: none;
+    }
+}
