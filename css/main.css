@@ -219,8 +219,18 @@ a {
   font-size: 20px;
 }
 
+.navBar .navBar__right .navBar__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .navBar .navBar__right .navBar__button .btn {
   border-radius: 0;
+}
+
+.navBar .navBar__right .navBar__button .navBar__button--red {
+  white-space: nowrap;
 }
 
 .navBar .navBar__right .navBar__button .navBar__button--red:hover {
@@ -229,7 +239,19 @@ a {
   border: 1px solid #521822;
 }
 
-@media screen and (max-width: 1200px) {
+.navBar .navBar__right .navBar__button .navBar__button--white {
+  white-space: nowrap;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1318.9px) {
+  .navBar .navBar__right .nav-item-hide .nav-link {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1199.9px) {
   .nav-item-hide {
     display: none;
   }

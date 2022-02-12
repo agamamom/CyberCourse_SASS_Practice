@@ -76,17 +76,38 @@
             font-size: $fz-24 - 4;
         }
         .navBar__button {
+            display: flex;
             .btn {
                 border-radius: 0;
             }
-            .navBar__button--red:hover {
-                @include buttonHover($cl-4, $cl-7, $cl-7);
+            .navBar__button--red {
+                white-space: nowrap;
+                &:hover {
+                    @include buttonHover($cl-4, $cl-7, $cl-7);
+                }
+            }
+            .navBar__button--white {
+                white-space: nowrap;
+                margin-right: 5px;
             }
         }
     }
 }
 
-@include responsive("extra-large") {
+@media screen and (min-width: 1200px) and (max-width: 1318.9px) {
+    .navBar {
+        .navBar__right {
+            .nav-item-hide {
+                .nav-link {
+                    white-space: nowrap;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+// max-width: 1200px
+@media screen and (max-width: 1199.9px) {
     .nav-item-hide {
         display: none;
     }
