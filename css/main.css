@@ -72,7 +72,7 @@ a {
 }
 
 .navBar .navBar__left .navBar__brand {
-  padding: 0 20px;
+  padding: 0 5px 0 0;
 }
 
 .navBar .navBar__left .navBar__brand img {
@@ -244,16 +244,39 @@ a {
   margin-right: 5px;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1318.9px) {
-  .navBar .navBar__right .nav-item-hide .nav-link {
-    white-space: nowrap;
-    font-size: 12px;
+@media screen and (max-width: 768px) {
+  .navBar .navBar__right .nav-item,
+  .navBar .navBar__right .navBar__button {
+    display: none;
+  }
+  .navBar .navBar__left .navBar__Category,
+  .navBar .navBar__left .navBar__input-group {
+    display: none;
   }
 }
 
 @media screen and (max-width: 1199.9px) {
-  .nav-item-hide {
+  .nav-item-hide1,
+  .nav-item-hide2 {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1318.9px) {
+  .navBar {
+    padding: 0.5rem 1rem 0.5rem 0;
+  }
+  .navBar .navBar__right .nav-item-hide1 .nav-link,
+  .navBar .navBar__right .nav-item-hide2 .nav-link {
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 0.5rem 11px;
+  }
+  .navBar .navBar__right .nav-item-hide1 {
+    margin-left: 20px;
+  }
+  .navBar .navBar__right .nav-item__icon i {
+    font-size: 16px;
   }
 }
 
@@ -340,6 +363,13 @@ a {
   background-color: #ec5252;
 }
 
+@media screen and (max-width: 576px) {
+  .cover .cover__content {
+    max-width: 400px;
+    left: 10.9%;
+  }
+}
+
 .intro {
   background: linear-gradient(-45deg, #ec5252, #6e1a52);
   padding: 20px;
@@ -382,6 +412,18 @@ a {
   font-size: 15px;
   font-weight: normal;
   color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .intro__content .intro__item .intro__icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    display: none;
+  }
 }
 
 .course {

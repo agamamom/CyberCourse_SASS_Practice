@@ -25,3 +25,21 @@
         }
     }
 }
+
+@include responsive("extra-large") {
+    .intro {
+        &__content {
+            .intro__item {
+                .intro__icon {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@include responsive("medium") {
+    .intro {
+        display: none;
+    }
+}

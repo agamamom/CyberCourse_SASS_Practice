@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         .navBar__brand {
-            padding: 0 $pd-20;
+            padding: 0 5px 0 0;
             img {
                 width: 110px;
             }
@@ -93,22 +93,54 @@
         }
     }
 }
+// RESPONSIVE
 
-@media screen and (min-width: 1200px) and (max-width: 1318.9px) {
+// 768
+@include responsive("medium") {
     .navBar {
         .navBar__right {
-            .nav-item-hide {
-                .nav-link {
-                    white-space: nowrap;
-                    font-size: 12px;
-                }
+            .nav-item,
+            .navBar__button {
+                display: none;
+            }
+        }
+        .navBar__left {
+            .navBar__Category,
+            .navBar__input-group {
+                display: none;
             }
         }
     }
 }
+
 // max-width: 1200px
 @media screen and (max-width: 1199.9px) {
-    .nav-item-hide {
+    .nav-item-hide1,
+    .nav-item-hide2 {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1318.9px) {
+    .navBar {
+        padding: 0.5rem 1rem 0.5rem 0;
+        .navBar__right {
+            .nav-item-hide1,
+            .nav-item-hide2 {
+                .nav-link {
+                    white-space: nowrap;
+                    font-size: 12px;
+                    padding: 0.5rem 11px;
+                }
+            }
+            .nav-item-hide1 {
+                margin-left: 20px;
+            }
+            .nav-item__icon {
+                i {
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }

@@ -18,3 +18,14 @@
         @include formInputStyle($cl-4, $cl-4, $cl-4);
     }
 }
+
+//RESPONSIVE
+
+@include responsive("small") {
+    .cover {
+        .cover__content {
+            max-width: 400px;
+            left: 10.9%;
+        }
+    }
+}
