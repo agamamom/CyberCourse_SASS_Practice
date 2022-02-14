@@ -30,6 +30,7 @@
     .intro {
         &__content {
             .intro__item {
+                align-items: flex-start;
                 .intro__icon {
                     display: none;
                 }

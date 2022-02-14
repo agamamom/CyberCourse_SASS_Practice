@@ -415,6 +415,11 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
+  .intro__content .intro__item {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .intro__content .intro__item .intro__icon {
     display: none;
   }

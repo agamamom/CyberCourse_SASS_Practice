@@ -127,13 +127,13 @@
     <section class="course">
         <div class="course__content">
             <div class="row">
-                <div class="col-4 course__left">
+                <div class="col-xl-4 col-md-3 col-12 course__left">
                     <div>
                         <p>The worlds largest selection of courses</p>
                         <p>Choose from over 80,000 online video courses with new additions published every month</p>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-xl-8 col-md-9 col-12">
                     <div class="course__right">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -919,13 +919,16 @@
             dots: false,
             responsive: {
                 0: {
-                    items: 1
+                    items: 2,
+                    margin: 5,
                 },
                 600: {
-                    items: 3
+                    items: 3,
+                    margin: 5,
                 },
                 1000: {
-                    items: 4
+                    items: 4,
+                    margin: 5,
                 }
             }
         })
@@ -938,14 +941,24 @@
             dots: false,
             responsive: {
                 0: {
-                    items: 1
+                    items: 2,
+                    margin: 5,
                 },
                 600: {
-                    items: 3
+                    items: 3,
+                    margin: 5,
+                },
+                768: {
+                    items: 4,
+                    margin: 5,
                 },
                 1000: {
+                    items: 5
+                },
+                1300: {
                     items: 6
                 }
+
             }
         })
     </script>
@@ -957,13 +970,14 @@
             dots: false,
             responsive: {
                 0: {
-                    items: 1
+                    items: 2,
+                    margin: 5,
                 },
                 600: {
                     items: 3
                 },
                 1000: {
-                    items: 3
+                    items: 4
                 }
             }
         })
