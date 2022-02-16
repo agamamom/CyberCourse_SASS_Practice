@@ -17,3 +17,9 @@
         }
     }
 }
+
+@include responsive("medium") {
+    .border-end {
+        border: none !important;
+    }
+}
