@@ -5,6 +5,7 @@
     top: 25%;
     right: 0;
     z-index: 10;
+    transform: translateX(100%);
     .SidebarMini__button {
         @include buttonStyle($cl-1, $fz-24, $fw-nor, $cl-17, $cl-17, 5px, 20px);
         border-radius: 8px 0 0 8px;
@@ -23,6 +24,40 @@
             height: 25px;
             width: 50px;
             margin: 0 10px;
+            position: relative;
+            input {
+                display: none;
+                &:checked + .slider {
+                    &::before {
+                        transform: translateX(22px);
+                    }
+                }
+            }
+            .slider {
+                background-color: #cccccc;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                position: absolute;
+                border-radius: 34px;
+                cursor: pointer;
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    height: 18px;
+                    width: 18px;
+                    border-radius: 50%;
+                    background-color: $bg-white-1;
+                    bottom: 4px;
+                    left: 4px;
+                    position: absolute;
+                    transition: all 0.4s;
+                }
+            }
         }
+    }
+    &.is-opened {
+        transform: translateX(62%);
     }
 }

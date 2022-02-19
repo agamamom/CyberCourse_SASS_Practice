@@ -1,3 +1,5 @@
+
+/* truncate CardTitle */
 window.addEventListener('load', function () {
     truncateCardTitle();
 })
@@ -18,3 +20,11 @@ function truncateString(str, num) {
         return str;
     }
 }
+
+/* Sidebar Mini*/
+var toggleBtn = document.querySelector('.SidebarMini__button');
+var sidebarMini = document.querySelector('.SidebarMini');
+
+toggleBtn.addEventListener('click', function () {
+    sidebarMini.classList.toggle('is-opened');
+});

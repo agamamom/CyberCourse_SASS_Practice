@@ -881,6 +881,8 @@ a {
   top: 25%;
   right: 0;
   z-index: 10;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .SidebarMini .SidebarMini__button {
@@ -912,5 +914,45 @@ a {
   height: 25px;
   width: 50px;
   margin: 0 10px;
+  position: relative;
+}
+
+.SidebarMini .SidebarMini__content .switch input {
+  display: none;
+}
+
+.SidebarMini .SidebarMini__content .switch input:checked + .slider::before {
+  -webkit-transform: translateX(22px);
+          transform: translateX(22px);
+}
+
+.SidebarMini .SidebarMini__content .switch .slider {
+  background-color: #cccccc;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.SidebarMini .SidebarMini__content .switch .slider::before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.SidebarMini.is-opened {
+  -webkit-transform: translateX(62%);
+          transform: translateX(62%);
 }
 /*# sourceMappingURL=main.css.map */
