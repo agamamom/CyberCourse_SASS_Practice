@@ -11,6 +11,12 @@
             img {
                 width: 110px;
             }
+            .logo--black {
+                display: inline-block;
+            }
+            .logo--white {
+                display: none;
+            }
         }
         .navBar__Category {
             display: flex;

@@ -1,0 +1,18 @@
+.darkMode {
+    .SidebarMini {
+        background-color: $cl-18;
+        .SidebarMini__button {
+            color: $cl-5;
+            background-color: $cl-18;
+            border-color: $cl-18;
+        }
+        .SidebarMini__content {
+            border-left: 1px solid $cl-18;
+            color: $cl-5;
+            .slider {
+                background-color: $cl-19;
+                box-shadow: 0 0 2px 3px $cl-20;
+            }
+        }
+    }
+}

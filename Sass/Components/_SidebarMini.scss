@@ -6,17 +6,20 @@
     right: 0;
     z-index: 10;
     transform: translateX(100%);
+    transition: all 0.5s;
     .SidebarMini__button {
         @include buttonStyle($cl-1, $fz-24, $fw-nor, $cl-17, $cl-17, 5px, 20px);
         border-radius: 8px 0 0 8px;
         position: absolute;
         transform: translateX(-100%);
-        border: 0 solid $cl-17;
+        transition: all 0.5s;
     }
     .SidebarMini__content {
         width: 150px;
         padding: 20px;
         text-align: center;
+        border-left: 1px solid $cl-17;
+        transition: all 0.5s;
         h2 {
             font-size: $fz-15;
         }

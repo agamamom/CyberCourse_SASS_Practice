@@ -24,7 +24,12 @@ function truncateString(str, num) {
 /* Sidebar Mini*/
 var toggleBtn = document.querySelector('.SidebarMini__button');
 var sidebarMini = document.querySelector('.SidebarMini');
+var switchBtn = document.querySelector('#checkbox-button');
 
 toggleBtn.addEventListener('click', function () {
     sidebarMini.classList.toggle('is-opened');
+});
+
+switchBtn.addEventListener('click', function () {
+    document.querySelector('body').classList.toggle('darkMode');
 });
