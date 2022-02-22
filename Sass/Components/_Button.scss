@@ -2,6 +2,7 @@
     box-shadow: none;
     @include buttonStyle($cl-8, $fz-15, $fw-700, $cl-2, transparent, $pd-10 + 1, $pd-10 + 2);
 }
+
 .navBar__button--red {
     box-shadow: none;
     @include buttonStyle($cl-4, $fz-15, $fw-700, $cl-6, $cl-6, $pd-10 + 1, $pd-10 + 2);

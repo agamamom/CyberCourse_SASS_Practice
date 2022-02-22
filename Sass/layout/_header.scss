@@ -25,7 +25,7 @@
             @include textStyle($fz-13, $fw-nor, $cl-2);
             cursor: pointer;
         }
-        @include formInputStyle($cl-5, $cl-4, $cl-9);
+        @include formInputStyle($cl-5, $cl-4, $cl-9, $cl-2);
     }
     // NAVBAR RIGHT
     .navBar__right {
@@ -51,6 +51,7 @@
                 padding: $pd-20;
                 top: 115%;
                 right: 0;
+                z-index: 1;
                 text-align: center;
                 background-color: #fff;
                 box-shadow: 0 4px 16px $cl-14;

@@ -26,7 +26,7 @@
     background-size: cover;
 }
 
-@mixin formInputStyle($bg-cl, $bg-cl-fc, $br-cl) {
+@mixin formInputStyle($bg-cl, $bg-cl-fc, $br-cl, $cl) {
     .navBar__input-group {
         background-color: $bg-cl;
         border-radius: 5px;
@@ -47,7 +47,7 @@
                 border-right-color: $br-cl;
             }
             &::placeholder {
-                color: $cl-2;
+                color: $cl;
             }
         }
         .input-group-text {

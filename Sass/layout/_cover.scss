@@ -15,7 +15,7 @@
         p {
             @include textStyle($fz-18, $fw-nor, $cl-4);
         }
-        @include formInputStyle($cl-4, $cl-4, $cl-4);
+        @include formInputStyle($cl-4, $cl-4, $cl-4, $cl-2);
     }
 }
 
