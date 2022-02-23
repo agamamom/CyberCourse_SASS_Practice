@@ -31,8 +31,11 @@
                 .overlay {
                     background-color: $cl-21;
                     color: $cl-5;
+                    border: 1px solid $cl-20;
                     &::before {
                         background-color: $cl-21;
+                        border-left: 1px solid $cl-20;
+                        border-top: 1px solid $cl-20;
                     }
                 }
             }

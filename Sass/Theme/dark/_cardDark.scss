@@ -1,0 +1,24 @@
+.darkMode {
+    .card {
+        background-color: $cl-18;
+        border: 1px solid #344050;
+        .card-title {
+            color: #d8e2ef;
+        }
+        .card-text {
+            color: #9da9bb;
+        }
+        .card__rating {
+            color: #9da9bb;
+            & span:nth-child(2) {
+                color: #d8e2ef;
+            }
+        }
+        .card__price {
+            color: #9da9bb;
+            & span:nth-child(2) {
+                color: #d8e2ef;
+            }
+        }
+    }
+}

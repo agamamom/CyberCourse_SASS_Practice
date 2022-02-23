@@ -1,0 +1,27 @@
+.darkMode {
+    .course {
+        .course__content {
+            .course__left {
+                background-color: $cl-23;
+                & p:first-child {
+                    color: $cl-5;
+                }
+                & p:last-child {
+                    color: $cl-9;
+                }
+            }
+            .course__right {
+                .nav-tabs {
+                    border-bottom: 1px solid $cl-9;
+                    .nav-link {
+                        color: $cl-22;
+                        background-color: transparent;
+                        &:hover {
+                            color: $cl-9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
