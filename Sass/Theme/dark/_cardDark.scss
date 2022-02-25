@@ -21,4 +21,12 @@
             }
         }
     }
+    .card__students {
+        background-color: $cl-21;
+        .card__bottom {
+            p {
+                color: $cl-22;
+            }
+        }
+    }
 }

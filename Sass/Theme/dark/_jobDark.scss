@@ -1,0 +1,16 @@
+.darkMode {
+    .jobs {
+        background-color: $cl-23;
+        .border-end {
+            border-right: 1px solid $cl-20 !important;
+        }
+        .jobs__items {
+            h3 {
+                color: $cl-5;
+            }
+            p {
+                color: $cl-22;
+            }
+        }
+    }
+}

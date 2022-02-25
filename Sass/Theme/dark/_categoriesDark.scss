@@ -1,0 +1,17 @@
+.darkMode {
+    .categories {
+        .categories__content {
+            .categories__items {
+                background-color: $cl-23;
+                border: 1px solid $cl-20;
+                box-shadow: 0 3px 1px 0 $cl-18;
+                & span {
+                    color: $cl-22;
+                }
+                &:hover {
+                    box-shadow: 0 0 3px 2px #152e4d;
+                }
+            }
+        }
+    }
+}
