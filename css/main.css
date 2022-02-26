@@ -764,6 +764,14 @@ a {
   margin-right: 10px;
 }
 
+.footer .footer__bottom .logo--black {
+  display: inline-block;
+}
+
+.footer .footer__bottom .logo--white {
+  display: none;
+}
+
 .footer .footer__bottom .footer__bottom-link li {
   list-style: none;
   text-align: right;
@@ -1099,6 +1107,8 @@ a {
 
 .darkMode .navBar .navBar__right .navBar__button > :first-child {
   background-color: #fff;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
 }
 
 .darkMode .navBar .navBar__right .navBar__button > :first-child:hover {
@@ -1216,5 +1226,61 @@ body.darkMode {
 
 .darkMode .jobs .jobs__items p {
   color: #9da9bb;
+}
+
+.darkMode .navBar__button--red:hover {
+  color: #f2f3f5;
+  background-color: #e63757;
+}
+
+.darkMode .button--dropup {
+  background-color: #152e4d;
+  border: 1px solid #344050;
+  color: #f2f3f5;
+}
+
+.darkMode .footer .footer__top .navbar-footer .nav-item .nav-link {
+  color: #f2f3f5;
+}
+
+.darkMode .footer .footer__top .btn-group {
+  color: #f2f3f5;
+}
+
+.darkMode .footer .footer__top .btn-group .dropdown-toggle:hover {
+  background-color: #132238;
+  border: 1px solid #344050;
+  color: #f2f3f5;
+}
+
+.darkMode .footer .footer__top .btn-group .dropdown-menu {
+  background-color: #132238;
+  color: #f2f3f5;
+  border: 1px solid #344050;
+}
+
+.darkMode .footer .footer__top .btn-group .dropdown-menu .dropdown-item {
+  color: #d8e2ef;
+}
+
+.darkMode .footer .footer__top .btn-group .dropdown-menu .dropdown-item:hover {
+  background-color: #152e4d;
+  color: #d8e2ef;
+}
+
+.darkMode .footer hr {
+  background-color: #344050;
+}
+
+.darkMode .footer .footer__bottom .logo--black {
+  display: none;
+}
+
+.darkMode .footer .footer__bottom .logo--white {
+  display: inline-block;
+}
+
+.darkMode .footer .footer__bottom .footer__bottom-link li a {
+  color: #f2f3f5;
 }
 /*# sourceMappingURL=main.css.map */

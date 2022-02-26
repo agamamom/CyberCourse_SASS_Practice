@@ -50,6 +50,7 @@
             .navBar__button {
                 & > :first-child {
                     background-color: $bg-white-1;
+                    transition: 0.4s all;
                     &:hover {
                         background-color: $cl-18;
                         border: 1px solid $cl-20;

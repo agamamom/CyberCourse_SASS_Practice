@@ -1,0 +1,13 @@
+.darkMode {
+    .navBar__button--red {
+        &:hover {
+            color: $cl-5;
+            background-color: #e63757;
+        }
+    }
+    .button--dropup {
+        background-color: $cl-18;
+        border: 1px solid $cl-20;
+        color: $cl-5;
+    }
+}
